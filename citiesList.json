@@ -1,0 +1,101 @@
+[
+  {
+     "id": 6167865,
+     "name": "Toronto",
+     "country": "CA",
+     "coord": {
+       "lon": -79.416298,
+       "lat": 43.700111
+     }
+   },
+   {
+      "id": 6077243,
+      "name": "Montreal",
+      "country": "CA",
+      "coord": {
+        "lon": -73.587807,
+        "lat": 45.508839
+      }
+    },
+    {
+      "id": 5913490,
+      "name": "Calgary",
+      "country": "CA",
+      "coord": {
+        "lon": -114.085289,
+        "lat": 51.05011
+      }
+    },
+    {
+      "id": 6094817,
+      "name": "Ottawa",
+      "country": "CA",
+      "coord": {
+        "lon": -75.69812,
+        "lat": 45.411171
+      }
+    },
+    {
+      "id": 5946768,
+      "name": "Edmonton",
+      "country": "CA",
+      "coord": {
+        "lon": -113.468712,
+        "lat": 53.55014
+      }
+    },
+  {
+     "id": 6173331,
+     "name": "Vancouver",
+     "country": "CA",
+     "coord": {
+       "lon": -123.119339,
+       "lat": 49.24966
+     }
+   },
+   {
+      "id": 6075357,
+      "name": "Mississauga",
+      "country": "CA",
+      "coord": {
+        "lon": -79.658302,
+        "lat": 43.578899
+      }
+    },
+   {
+      "id": 5907364,
+      "name": "Brampton",
+      "country": "CA",
+      "coord": {
+        "lon": -79.766327,
+        "lat": 43.683411
+      }
+    },
+    {
+       "id": 5969782,
+       "name": "Hamilton",
+       "country": "CA",
+       "coord": {
+         "lon": -79.849632,
+         "lat": 43.250111
+       }
+     },
+     {
+        "id": 6066513,
+        "name": "Markham",
+        "country": "CA",
+        "coord": {
+          "lon": -79.266296,
+          "lat": 43.866821
+        }
+      },
+      {
+       "id": 6122091,
+       "name": "Richmond Hill",
+       "country": "CA",
+       "coord": {
+         "lon": -79.437248,
+         "lat": 43.871109
+       }
+     }
+ ]
