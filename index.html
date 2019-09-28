@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sami</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css"><!-- bootstrap -->
+        <link rel="stylesheet" href="css/style.css"><!-- custom css -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h2>WeatherApi | Fullstack 1</h2>
+        </header>
+
+        <div class="selectBox">
+          <label for="locality-dropdown">Select the city: </label>
+          <select id="locality-dropdown" class="custom-select" name="locality" onchange="cities()">
+          </select>
+        </div>
+
+        <section class="boxWeather">
+                <div id="location"></div>
+                <h1 id="temp"></h1>
+                <div id="description"></div>
+        </section>
+
+        <table class="table table-striped">
+            <tbody>
+                <tr>
+                    <th scope="row" class="text-capitalize">wind</th>
+                    <td id="wind"></td>
+                </tr>
+                <tr>
+                    <th scope="row" class="text-capitalize">cloudiness</th>
+                    <td id="cloudiness"></td>
+                </tr>
+                <tr>
+                    <th scope="row" class="text-capitalize">pressure</th>
+                    <td id="pressure"></td>
+                </tr>
+                <tr>
+                    <th scope="row" class="text-capitalize">humidity</th>
+                    <td id="humidity"></td>
+                </tr>
+                <tr>
+                    <th scope="row" class="text-capitalize">sunrise</th>
+                    <td id="sunrise"></td>
+                </tr>
+                <tr>
+                    <th scope="row" class="text-capitalize">sunset</th>
+                    <td id="sunset"></td>
+                </tr>
+                <tr>
+                    <th scope="row" class="text-capitalize">geo coords</th>
+                    <td id="coords"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <footer>
+            <small>
+                © <span id="showDate"></span>,
+                All Right Reserved |
+                Sami
+            </small>
+        </footer>
+
+        <!-- script -->
+        <script src="js/jquery-3.4.1.min.js"></script><!-- jquery -->
+        <script src="js/bootstrap.min.js"></script><!-- bootstrap -->
+        <script src="js/custom.js"></script>
+    </body>
+</html>
